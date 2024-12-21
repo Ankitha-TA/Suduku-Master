@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="create_acc">Create an account</string>
+    <string name="welcome_bac">Welcome Back!</string>
+    <string name="signin_text">Sign In</string>
+    <string name="signup_text">Sign Up</string>
+    <string name="email_text">Email</string>
+    <string name="email_hint">Enter Your Email</string>
+    <string name="password_text">Password</string>
+    <string name="password_hint">Enter Your Password</string>
+    <string name="confpassword_text">Confirm Password</string>
+    <string name="confpassword_hint">Confirm Your Password</string>
+    <string name="signup_btn_text">Sign Up</string>
+    <string name="or_text">or</string>
+    <string name="sign_in_btn_text">Sign In</string>
+    <string name="forgot_pass_text">Forgot Password?</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="username_text">Username</string>
+    <string name="fb_login_protocol_scheme">fb545472501507625</string>
+    <string name="facebook_app_id">545472501507625</string>
+    <string name="facebook_client_token">8aaf540570c590821de4bb96dd0f74ef</string>
+    <string name="default_web_client_id">547691169850-cp96omq0v3r4mj6pboc18ctl3tv6t704.apps.googleusercontent.com</string>
+
+
+    1:547691169850:android:0a093eaaf191f98baa0d03
+
+
+    <string name="palette_icon_desc">Palette Icon</string>
+    <string name="user_icon_desc">User Icon</string>
+    <string name="shine_icon_desc">Shine Icon</string>
+    <string name="sign_in_with_google">SIGN IN WITH GOOGLE</string>
+    <string name="timer_mode">Timer Mode:</string>
+    <string name="score">Score:</string>
+    <string name="mistakes">Mistakes:</string>
+    <string name="history">History</string>
+    <string name="search">Search</string>
+    <string name="help_3">3. Last Remaining Cell: In a row, column, or block, please find the unique cell where a certain number can be filled.</string>
+    <string name="help_2">2. Last Blank Cell: In each row, column, and block, only numbers 1-9 can be filled. When a row, column, or block has already filled in 8 cells, the remaining blank cell should be filled with the unique missing number.</string>
+    <string name="help_1">1. On an empty cell where you want to place a number. Select the number you want to place in that cell from the options below the grid.</string>
+    <string name="sudoku_master_help">Sudoku Master Help</string>
+</resources>

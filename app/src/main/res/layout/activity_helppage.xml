@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background">
+
+    <ImageView
+        android:id="@+id/helpIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_home_filled_24"
+        android:layout_gravity="top|start" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/headerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sudoku_master_help"
+                android:textSize="24sp"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_1"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="@color/help_text_color" />
+
+                <ImageView
+                    android:id="@+id/helpImage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="500dp"
+                    android:src="@drawable/img" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_2"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="@color/help_text_color"
+                    android:layout_marginTop="30dp"/>
+
+                <ImageView
+                    android:id="@+id/helpImage2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:src="@drawable/img1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_3"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:textColor="@color/help_text_color"
+                    android:layout_marginTop="30dp"/>
+
+                <ImageView
+                    android:id="@+id/helpImage3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:src="@drawable/img2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
